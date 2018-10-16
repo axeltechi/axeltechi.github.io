@@ -1,0 +1,65 @@
+.navbar {
+  box-shadow: 2px 2px 5px #000;
+  opacity: 0.9;
+  background-color: #fff;
+}
+
+.navbar .nav-item {
+  font-size: 1rem;
+  padding-right: 0.8rem;
+}
+
+#showcase {
+  position: relative;
+  background-image: url("./../img/header.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 700px;
+}
+
+#showcase .primary-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 700px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.showcase-items {
+  margin-top: 150px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12),
+    0 2px 4px -1px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover {
+  box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14),
+    0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.3);
+  color: black;
+}
+
+address {
+  margin-bottom: 0px;
+}
+
+.highlight-case {
+  color: rgb(114, 66, 66);
+}
+
+@media (max-width: 575.98px) {
+  .showcase {
+    display: none;
+  }
+
+  .sm-icon:nth-child(1),
+  .sm-icon:nth-child(2) {
+    padding-bottom: 2.4rem;
+  }
+}
