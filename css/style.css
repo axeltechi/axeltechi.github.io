@@ -77,9 +77,3 @@ address {
     margin-top: 180px;
   }
 }
-
-@media (min-width: 992px) {
-  .cardmobile {
-    margin-top: 180px;
-  }
-}
