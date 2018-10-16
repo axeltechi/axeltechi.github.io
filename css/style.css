@@ -54,12 +54,32 @@ address {
 }
 
 @media (max-width: 575.98px) {
-  .showcase {
+  .dnone {
     display: none;
+  }
+
+  .cardmobile {
+    margin-top: 180px;
   }
 
   .sm-icon:nth-child(1),
   .sm-icon:nth-child(2) {
     padding-bottom: 2.4rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .dnone {
+    display: none;
+  }
+
+  .cardmobile {
+    margin-top: 180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .cardmobile {
+    margin-top: 180px;
   }
 }
